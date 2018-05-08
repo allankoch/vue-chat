@@ -1,0 +1,7 @@
+.line {
+  padding: 5px 10px 0;
+}
+
+.line .name {
+  font-weight: bold;
+}

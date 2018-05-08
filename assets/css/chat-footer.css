@@ -1,0 +1,7 @@
+.footer {
+  background-color: yellow;
+}
+
+.footer input#footer-input-message {
+  width: 500px;
+}

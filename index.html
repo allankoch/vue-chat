@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <!-- Vue -->
+    <!-- development -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- production -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <!-- Vuex -->
+    <script src="https://unpkg.com/vuex@3.0.1/dist/vuex.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script src="./firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./app.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-login.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-logout.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-profile.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-header.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-line.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-body.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-aside.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/chat-footer.css"/>
+
+    <title>Vue Chat</title>
+  </head>
+  <body>
+
+    <noscript>
+      <strong>Don't be a loser. Enable Javascript!</strong>
+    </noscript>
+
+    <div id="app">
+      <chat-header></chat-header>
+      <chat-body></chat-body>
+      <chat-aside></chat-aside>
+      <chat-footer></chat-footer>
+    </div>
+
+    <script src="./store/store.js"></script>
+    <script src="./components/chat-body.js"></script>
+    <script src="./components/chat-login.js"></script>
+    <script src="./components/chat-logout.js"></script>
+    <script src="./components/chat-profile.js"></script>
+    <script src="./components/chat-line.js"></script>
+    <script src="./components/chat-header.js"></script>
+    <script src="./components/chat-aside.js"></script>
+    <script src="./components/chat-footer.js"></script>
+    <script src="./app.js"></script>
+
+  </body>
+</html>
